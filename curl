@@ -1,0 +1,3 @@
+Curl notes and useful flags
+
+-i, --include       Include protocol response headers in the output
