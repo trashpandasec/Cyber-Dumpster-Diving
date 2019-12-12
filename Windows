@@ -1,0 +1,7 @@
+Windows Command line: 
+
+
+https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/icacls
+
+Powershell: 
+Get-TlsCipherSuite | Format-Table Name 
