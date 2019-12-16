@@ -1,8 +1,21 @@
-Windows Command line: 
+Windows Command line references : 
 
 https://cdn.makeuseof.com/wp-content/uploads/2017/02/Essentials-Windows-CMD-Command-You-Should-Know-2.pdf  
 
 https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/icacls
+
+
+https://ss64.com/nt/
+
+find command tips and tricks: 
+
+https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/find#BKMK_examples
+
+*Look for file names* 
+Dump file names in a directory: dir c:\ /s /b  
+Go through the dump and pick out specific items : dir c:\ /s /b | find "CPU" 
+
+Findstr - Same as find but suports reg expressions 
 
 Powershell: 
 Get-TlsCipherSuite | Format-Table Name 
