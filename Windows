@@ -5,6 +5,7 @@ https://cdn.makeuseof.com/wp-content/uploads/2017/02/Essentials-Windows-CMD-Comm
 https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/icacls
 
 
+
 https://ss64.com/nt/
 
 find command tips and tricks: 
@@ -17,5 +18,12 @@ Go through the dump and pick out specific items : dir c:\ /s /b | find "CPU"
 
 Findstr - Same as find but suports reg expressions 
 
+
+
 Powershell: 
 Get-TlsCipherSuite | Format-Table Name 
+
+
+Logs: 
+
+C:\Windows\System32\winevt\logs folder 
