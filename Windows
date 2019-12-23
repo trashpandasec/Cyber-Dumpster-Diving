@@ -8,9 +8,11 @@ https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/
 
 https://ss64.com/nt/
 
-find command tips and tricks: 
+### find command tips and tricks### 
 
 https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/find#BKMK_examples
+
+https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/findstr
 
 *Look for file names* 
 Dump file names in a directory: dir c:\ /s /b  
