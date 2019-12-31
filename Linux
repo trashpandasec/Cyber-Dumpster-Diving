@@ -9,3 +9,7 @@ Quickly scan for directories with loose permissions.
 Quickly scan for directories with loose permissions without the sticky bit set. 
 # find / -type d \( -perm -g+w -o -perm -o+w \) \
             -not -perm -a+t -exec ls -lad {} \;
+
+
+Check the sudoers file if you've got access 
+#sudo grep tail /etc/sudoers 
