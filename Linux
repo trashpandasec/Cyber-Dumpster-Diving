@@ -1,7 +1,16 @@
+--Reference materials-- 
+
 Centos references
 https://en.wikipedia.org/wiki/CentOS#End-of-support_schedule 
 
 
+--Terminal 
+
+In the event that your terminal is having issues for various reasons try: 
+# stty sane 
+
+
+--Checks-- 
 
 Quickly scan for directories with loose permissions.
 # find / -type d \( -perm -g+w -o -perm -o+w \) -exec ls -lad {} \;
