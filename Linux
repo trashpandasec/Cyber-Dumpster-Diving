@@ -12,6 +12,11 @@ In the event that your terminal is having issues for various reasons try:
 
 --Checks-- 
 
+Check network configs: 
+ifconfig -a
+
+If there is a V6 address can it be reached from the internet? 
+
 Quickly scan for directories with loose permissions.
 # find / -type d \( -perm -g+w -o -perm -o+w \) -exec ls -lad {} \;
 
