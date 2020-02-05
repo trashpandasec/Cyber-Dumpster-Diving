@@ -1,0 +1,32 @@
+quick and dirty way to automate nmap scans using the cron tab. Will add more details later. 
+
+Example for running at midnight: 
+
+0 0 * * * nmap -sV -p 80, 443, 9999 --script=banner, http-headers <target> > /root/<filepath>/<filename> 
+
+
+Additional information pulled from here: https://www.ostechnix.com/a-beginners-guide-to-cron-jobs/ 
+
+
+Run every minute * * * * * <command-to-execute> 
+Run every 5 minutes */5 * * * * <command-to-execute> 
+Run multiple time slots 0,5,10 * * * * <command-to-execute> 
+Run every hour 0 * * * * <command-to-execute> 
+Run every day (at midnight) 0 0 * * * <command-to-execute> 
+Run every day (at 3am) 0 3 * * * <command-to-execute>
+Run every sunday 0 0 * * SUN <command-to-execute> 
+Run every weekday 0 0 * * 1-5 <command-to-execute> 
+
+We can also use the following strings to define job.
+
+@reboot	Run once, at startup.
+@yearly	Run once a year.
+@annually	(same as @yearly).
+@monthly	Run once a month.
+@weekly	Run once a week.
+@daily	Run once a day.
+@midnight	(same as @daily).
+@hourly	Run once an hour.
+
+> to create a file 
+>> to continuously append to the file 
