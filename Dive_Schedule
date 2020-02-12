@@ -30,3 +30,7 @@ We can also use the following strings to define job.
 
 > to create a file 
 >> to continuously append to the file 
+
+
+Troubleshooting cron: 
+https://bencane.com/2011/11/02/did-my-cronjob-run/
