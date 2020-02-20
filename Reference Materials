@@ -6,3 +6,11 @@ https://community.turgensec.com/ssh-hacking-guide/
 ###Crypto### 
 
 https://ciphersuite.info/  - For quick look up of secure / insecure 
+
+
+###SNMP### 
+https://www.ionos.com/digitalguide/server/know-how/snmp-tutorial/
+
+Quick snmpv1 and public stringcheck 
+snmpwalk -v 1 -c public <target>  
+  a reply indicates v1 and default community string are in use. 
