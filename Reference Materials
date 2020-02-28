@@ -14,3 +14,7 @@ https://www.ionos.com/digitalguide/server/know-how/snmp-tutorial/
 Quick snmpv1 and public stringcheck 
 snmpwalk -v 1 -c public <target>  
   a reply indicates v1 and default community string are in use. 
+
+###CVSS Scoring### 
+
+https://www.first.org/cvss/examples 
