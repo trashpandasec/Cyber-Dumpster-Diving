@@ -1,3 +1,17 @@
 Curl notes and useful flags
 
 -i, --include       Include protocol response headers in the output
+
+
+Login using curl: 
+curl --user user:pass https://xyz.com/a 
+ 
+ Save cookie received using curl: 
+ curl --user user:pass --cookie-jar ./somefile https://xyz.com/a
+ 
+ Read cookie back using curl to continue session: 
+ curl --cookie ./somefile https://xyz.com/b
+ 
+ 
+ stolen from stack overflow for later testing. 
+ https://stackoverflow.com/questions/12399087/curl-to-access-a-page-that-requires-a-login-from-a-different-page
