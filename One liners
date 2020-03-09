@@ -1,0 +1,15 @@
+
+Useful Grep commands 
+
+Grep for X number of characters after a after specific character from a document already in your possession or Y number of characters 
+prior to the item you grepped for. 
+
+Example: cat <document> | grep -o -P '<Character>.{Y,X}' > ~/<Output> 
+
+
+Borrowing this from GBiagomba
+
+for i in $(cat rules_list.txt); do find . -type f | xargs grep -e "$i" | grep -v "rules_list.txt"; done 
+
+Itererate 
+for i in `cat ports` ; do nmap -P0 -T4 --max-rtt-timeout 200ms --max-retries 2 -n --open -p $i -iL aggs.txt -oN $i ; done  
