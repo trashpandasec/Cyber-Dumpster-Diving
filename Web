@@ -2,3 +2,5 @@ https://builtwith.com/
 
 If using Burp with Firefox it's possible that the firefox updates may break or delete some of your configuration. Make sure to document your 
 configs well to cut down on the time it takes you to set up for a testing session. 
+
+https://securityheaders.com/ 
