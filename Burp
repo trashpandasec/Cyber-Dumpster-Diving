@@ -1,0 +1,5 @@
+You can upload a list of urls that are out of scope before beginning any testing. This will cut down on the number of out of scope items 
+if you're like me and start your proxy too early.  
+
+Just create a plain text file with every site that shows up in your target list when you  open your browser and navigate to the site in question.
+Probably the pros know this but seemed like a useful thign to know. 
