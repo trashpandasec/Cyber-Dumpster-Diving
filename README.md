@@ -1,2 +1,1 @@
-# Cyber-Dumpster-Diving
-References and code snippets to help "cyber dumpster dive" aka evaluate a system for low hanging security issues with minimum effort on the assessors part.  
+This started as a place to put small useful things that I wanted to remember easily but I'm starting to think that I should turn it into a repo of useful skills to develope that will allow a noob to operate more effectively. 
