@@ -5,3 +5,6 @@ configs well to cut down on the time it takes you to set up for a testing sessio
 
 https://securityheaders.com/ 
 https://www.ssllabs.com/ 
+
+# HTTP Request Smuggling 
+https://github.com/defparam/smuggler 
