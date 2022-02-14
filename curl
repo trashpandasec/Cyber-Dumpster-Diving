@@ -16,6 +16,15 @@ curl --user user:pass https://xyz.com/a
  stolen from stack overflow for later testing. 
  https://stackoverflow.com/questions/12399087/curl-to-access-a-page-that-requires-a-login-from-a-different-page
 
-#Autocurl in bash 
+# Autocurl in bash 
 for i in `cat ProxyListForCurl.txt` ; do echo "###$i###"  
  curl $i; done 
+
+# Other ways to bulk query from stackoverflow 
+
+There are two main ways to do that: with xargs, or with command substitution. With xargs:
+
+xargs <urls.txt curl …
+With command substitution:
+
+curl … $(cat urls.txt)
