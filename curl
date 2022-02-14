@@ -15,3 +15,7 @@ curl --user user:pass https://xyz.com/a
  
  stolen from stack overflow for later testing. 
  https://stackoverflow.com/questions/12399087/curl-to-access-a-page-that-requires-a-login-from-a-different-page
+
+#Autocurl in bash 
+for i in `cat ProxyListForCurl.txt` ; do echo "###$i###"  
+ curl $i; done 
